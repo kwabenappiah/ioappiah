@@ -1,0 +1,259 @@
+<!doctype html>
+<!-- This entire layout structure is taken from CS50s finance implementation https://finance.cs50.net/login -->
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89966424-1"></script>
+    <!-- This is taken from Bootstrap https://getbootstrap.com/docs/4.4/getting-started/introduction/-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- own additional style sheet -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168103075-1"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-168103075-1', {'anonymize_ip': true });
+    </script>
+    <!-- Disallow crawlers to index this website -->
+    <meta name="robots" content="noindex">
+    <title>Owusu Appiah Website</title>
+    <link rel="icon" href="img/">
+    <!-- mobile first bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light portfolio-navbar-custom sticky-top">
+      <div class="container">
+        <a class="navbar-brand" id="name-color" href="#"><img src="images/ike-head.png"> Isaac Owusu-Appiah</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto mt-2">
+            <li class="nav-item">
+              <a class="nav-link" id="navbar-color" href="home.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navbar-color" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navbar-color" href="blog.html">Blog</a>
+            </li>                        
+            <li class="nav-item">
+              <a class="nav-link" id="navbar-color" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navbar-color" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navbar-color" href="contact.html">Contact</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <section class="title-color" id="portfolio-title">
+      <div class="portfolio-item-wrapper">
+        <div class="portfolio-img-background" style="background-image:url(images/iok.jpg)"></div>
+        <div class="img-text-wrapper">
+          <div class="subtitle">
+            <h1>hi, my name is Isaac Owusu-Appiah</h1>
+            I'm a self-motivated, detail-oriented, and determined Data Scientist who enjoys finding data-driven solutions to real world problems..
+          </div>
+        </div>
+     </div>
+  </section>
+
+    <!-----------Portfolio------------------------------------>
+
+  <section class="Portfolio">
+      <h2 class="title">PORTFOLIO</h2>
+      <p>Projects on Data sciences.</p>
+      <div class="row">
+        <div class="portfolio-col">
+          <h3>Data Analysis</h3>
+          <p>Extract insights through detailed exploratory analysis and the employment of statistical techniques. Find and review practical business solutions and data processing with SQL queries, Python and R.</p>
+          <p></p>
+          <a button type="button" class="btn btn-primary" href="portfolio.html">Read more</a></button>
+        </div>
+        <div class="portfolio-col">
+          <h3>Machine Learning</h3>
+          <p>Build predictive analytic models to contribute to data-driven decisions and solve business problems.</p>
+          <p></p>
+          <a button type="button" class="btn btn-primary" href="portfolio.html">Read more</a></button>
+        </div>
+        <div class="portfolio-col">
+          <h3>Web Apps</h3>
+          <p>Design web applications to host and deploy Statistical and Machine learning models for practical utility of data-driven solutions.</p>
+          <p></p>
+          <a button type="button" class="btn btn-primary left" href="portfolio.html">Read more</a></button>
+        </div>
+      </div>
+  </section>
+  <!---------------- Activities ------------>
+  <section id="activities">
+    <div class="container text-center">
+      <h2 class="title">BLOG</h2>
+      <div class="row text-center">
+        <div class="col-md-4 activities">
+          <div class="plot">
+            <img src="images/comV3.jpg" class="activity-img">
+          </div>
+          <hr>
+          <div class="info">
+            <li>Plant Disease Detection</li>
+            <span><li>Dogs Vs. Cats</span></li>
+            <span><li>Facial Recognition With InceptionV3</span></li>
+          <p></p>
+            <a button type="button" class="btn btn-primary" href="blog.html">Read more</a></button>
+          </div>
+        </div>
+        <div class="col-md-4 activities">
+          <div class="plot">
+            <img src="images/online-blog.jpg" class="activity-img">
+          </div>
+          <hr>
+          <div class="info">
+            <h3>Itips</h3>
+            <p>Here, I blog and give tips about stuff like coding with Python & R Statistical programming, business models solutions in SQL, finance markets models(i.e. amortization) Sample survey techniques, finding technical solutions to everyday problems and on youtube and other stuff in the world of technology. Hopefully you'll find some of it interesting and educative.</p>
+            <p></p>
+            <a button type="button" class="btn btn-primary" href="blog.html">Read more</a></button>
+          </div>
+        </div>
+        <div class="col-md-4 activities">
+          <div class="plot">
+            <img src="images/dataS.jpg" class="activity-img">
+          </div>
+          <hr>
+          <div class="info">
+            <li>Articles on Python libraries</li>
+            <span><li>Big Data and distributed computing</span></li>
+            <span><li>Data Warehouse technologies for data integration and analytics</span></li>
+            <span><li>Data driven Customer Relations Management</span></li>
+            <span><li>Data protection, privacy and backup</span></li>
+            <span><li>Categorical Data Analysis</span></li>
+            <span><li>SQL Functions</span></li>
+            <span><li>Python Functions</span></li>
+            <span><li>R Functions</span></li>
+            <span><li>Excel Function</span></li>
+            <span><li>Visualization Data Distributions</span></li>
+            <span><li>SQL Functions</span></li>
+            <span><li>Python Functions</span></li>
+            <p></p>
+            <a button type="button" class="btn btn-primary" href="blog.html">Read more</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-------campus------------->
+
+  <section class="Portfolio">
+    <h2 class="title">SERVICES</h2>
+    <p>Master a course listed below.</p>
+    <div class="row">
+      <div class="portfolio-col">
+        <img src="images/excel.png">
+        <div class="">
+          <h3>EXCEL training</h3>
+          <a href="services.html" class="hero-btn red-btn">Read more</a>
+        </div>
+      </div>
+
+      <div class="portfolio-col">
+        <img src="images/SQL-from KINDPNG.png">
+        <div class="">
+          <h3>SQL training</h3>
+          <a href="services.html" class="hero-btn red-btn">Read more</a>
+        </div>
+      </div>
+      
+      <div class="portfolio-col">
+        <img src="images/python.png">
+        <div class="">
+          <h3>PYTHON training</h3>
+          <a href="services.html" class="hero-btn red-btn">Read more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------- resume ---------------------------->
+
+  <section class="resume">
+    <h2 class="title">About</h2>
+    <div class="row">
+      <div class="resume-col">
+        <img src="images/ike.jpg">
+        <div>
+          <p>I'm Isaac Kwabena Owusu-Appiah, a Data Scientist, based in Toronto. I enjoy automating things and finding data-driven solutions to real world business problems. My interest lies with everything data, from data architecture, data analytics to building Machine Learning Models.
+          </p>
+          <h5>Isaac Owusu-Appiah</h5>
+        </div>
+      </div>
+      <div class="resume-col">
+        <div>
+          <h4>This Site</h4>
+          <p>The website delivers daily email and update on data, finance markets and distruptions. All contents comes from highly experienced professionals with the passion to help students and individuals make strategic and informed decisions.</p>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---------Call To Action----------------->
+
+  <section class="cta">
+    <h1><a href="contact.html">Reach out to me</a> for collaborations, project discussions, or offers in mind.</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+  </section>
+
+  <!----------Footer ------------------->
+
+  <section class="footer">
+  <div class="icons">
+    <a href="https://facebook.com/iokappiah"><i class="fa fa-facebook"></i></a>
+    <a href="https://X.com/@_aappiah"><i class="fa fa-twitter"></i></a>
+    <a href="https://instagram.com/iokappiah"><i class="fa fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/isaac-owusu-appiah/"><i class="fa fa-linkedin"></i></a>
+    <a href="https://youtube.com/@xqltips"><i class="fa fa-youtube"></i></a>
+  </div>
+    <a href="" class="text-dark">Legal Notice</a> |
+    <a href="" class="text-dark">Privacy</a>
+  <p>Copyright &copy; 2023 with <i class="fa fa-heart-o" ></i> by Isaac Owusu-Appiah</p>
+  </section>
+
+  <!----------JavaScript for Toggle Menu------------------->
+  <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px"
+      }
+  </script>
+  </body>
+</html>
