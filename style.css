@@ -119,7 +119,7 @@
 }
 .hero-btn:hover{
   border: 1px solid #FFF;
-  background-image: linear-gradient(to right, #FA2742,#6c0412);
+  background-image: linear-gradient(to right,#FA2742,#6c0412);
   transition: 1s;
 }
 .portfolio-item-wrapper {
@@ -216,7 +216,7 @@
   padding: 8px 25px;
   border: none;
   border-radius: 20px;
-  background-image: linear-gradient(to right, #FA2742,#6c0412);
+  background-image: linear-gradient(to right,#FA2742,#6c0412);
 }
 
 /*-------------- Portfolio ----------------*/
@@ -366,7 +366,7 @@ h3{
   padding: 8px 25px;
   border: none;
   border-radius: 20px;
-  background-image: linear-gradient(to right, #FA2742,#6c0412);
+  background-image: linear-gradient(to right,#FA2742,#6c0412);
 }
 
 /*----------------- campus -------------------*/
@@ -400,7 +400,7 @@ h3{
   transition: 0.5s;
 }
 .layer:hover{
-  background-image: linear-gradient(to right, #FA2742,#6c0412);
+  background-image: linear-gradient(to right,#FA2742,#6c0412);
 }
 .layer h3{
   width: 100%;
@@ -902,7 +902,7 @@ h2.about-header
     position: relative;
     height: 15px;
     width: 100%;
-    background-image: linear-gradient(to bottom right, #FA2742, #6c0412);
+    background-image: linear-gradient(to bottom right,#FA2742,#6c0412);
     border: 2px solid #373833;
     border-radius: 4px;
     margin-bottom: 15px;
@@ -924,7 +924,7 @@ h2.about-header
 .skill-bar .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-image: linear-gradient(to bottom right, #F8F8F8, #FFFFFF);
+  background-image: linear-gradient(to bottom right,#F8F8F8,#FFFFFF);
   color: #000000;
   text-align: center;
   padding: 5px;
@@ -1021,7 +1021,7 @@ h3{
   padding: 10px 25px;
   border: none;
   border-radius: 20px;
-  background-image: linear-gradient(to right, #FA2742, #6c0412);
+  background-image: linear-gradient(to right,#FA2742,#6c0412);
   
 }
 .projects-col .projects-right{
@@ -1105,7 +1105,7 @@ h3{
   padding: 10px 25px;
   border: none;
   border-radius: 20px;
-  background-image: linear-gradient(to right, #FA2742, #6c0412);
+  background-image: linear-gradient(to right,#FA2742,#6c0412);
   
 }
 .blog-left .projects-col .projects-right{
