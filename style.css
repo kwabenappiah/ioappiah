@@ -35,10 +35,10 @@
 .navbar-nav li a:hover
 {
     text-decoration: none;
-    color: #045663;
+    color: #FA2742;
 }
 .fa-bars{
-  color: #045663;
+  color: #373833;
   font-size: 30px !important;
 }
 .navbar-toggler{
@@ -51,12 +51,12 @@
 /*-----------------Old part ---------------------*/
 
 #navbar-color, #name-color{
-  color: #292f45;
+  color: #17AB83;
 }
 #navbar-color:hover
 {
     text-decoration: none;
-    color:#045663;
+    color:#373833;
 }
 .collapse navbar-collapse {
   display: flex;
@@ -81,7 +81,7 @@
   content: '';
   width: 0%;
   height: 2px;
-  background: #FFFFFF;
+  background: #FFF;
   display: block;
   margin: auto;
 }
@@ -109,7 +109,7 @@
   display: inline-block;
   text-decoration: none;
   color: #FFF;
-  border: 1px solid #06c1de;
+  border: 1px solid #373833;
   padding: 12px 34px;
   font-size: 13px;
   background: transparent;
@@ -119,7 +119,7 @@
 }
 .hero-btn:hover{
   border: 1px solid #FFF;
-  background-image: linear-gradient(to right, #06c1de,#053e47);
+  background-image: linear-gradient(to right, #FA2742,#6c0412);
   transition: 1s;
 }
 .portfolio-item-wrapper {
@@ -148,7 +148,7 @@
   transform: translateX(-50%, 50%);
   opacity: 15;
   font-family: 'Ink Free', sans-serif;
-  color: #FFF;
+  color: #968109;
 }
 .img-text-wrapper:hover .subtitle {
   font-weight: 500;
@@ -161,21 +161,21 @@
 }
 .portfolio-navbar-custom
 {
-  background-color: #06c1de;
+  background-color: #A92335;
 }
 .about-navbar-custom
 {
-  background-color: #06c1de;
+  background-color: #A92335;
 }
 .navbar-toggler
 {
-    background-color: #F44336;
+    background-color: #373833;
 }
 #btn-lang
 {
     border: 20px solid;
-    border-color: #053e47;
-    color: #053e47;
+    border-color: #940417;
+    color: #940417;
     font-weight: bold;
 }
 
@@ -216,7 +216,7 @@
   padding: 8px 25px;
   border: none;
   border-radius: 20px;
-  background-image: linear-gradient(to right, #06c1de,#053e47);
+  background-image: linear-gradient(to right, #FA2742,#6c0412);
 }
 
 /*-------------- Portfolio ----------------*/
@@ -234,7 +234,7 @@ h1{
 }
 .title::after{
   content:'';
-  background:#06c1de;
+  background:#940417;
   height: 5px;
   width: 100px;
   margin-left: auto;
@@ -243,7 +243,7 @@ h1{
   transform: translateY(60px);
 }
 p{
-  color:#777;
+  color:#373833;
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
@@ -263,7 +263,7 @@ p{
   padding: 20px;
   box-sizing: border-box;
   transition: 0.5s;
-  border: 1px solid #045663;
+  border: 1px solid #373833;
   font-family: "Century Gothic", sans-serif;
 }
 .portfolio-col img{
@@ -271,7 +271,7 @@ p{
 }
 .portfolio-col li{
   text-align: left;
-  color:#777;
+  color:#373833;
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
@@ -279,7 +279,7 @@ p{
 }
 .info li{
   text-align: left;
-  color:#777;
+  color:#373833;
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
@@ -327,18 +327,19 @@ h3{
   padding: 20px;
   box-sizing: border-box;
   transition: 0.5s;
-  border: 1px solid #06c1de;
+  border: 1px solid #373833;
 }
 .col-md-4 .info{
   padding: 5px;
-  background-color:;
+  background-color: #EBEAE3;
+  color: #373833;
 }
 .plot .activity-img {
   width: 100%;
   border-radius: 20px;
 }
 .plot .activity-img:hover{
-  box-shadow: 0 0 40px 0 #053e47;
+  box-shadow: 0 0 40px 0 #d1d10;
 }
 .activities{
   padding: 20px;
@@ -350,7 +351,7 @@ h3{
 }
 .title::after{
   content:'';
-  background: #053e47;
+  background: #940417;
   height: 3px;
   width: 100px;
   margin-left: auto;
@@ -365,7 +366,7 @@ h3{
   padding: 8px 25px;
   border: none;
   border-radius: 20px;
-  background-image: linear-gradient(to right,#06c1de,#053e47);
+  background-image: linear-gradient(to right, #FA2742,#6c0412);
 }
 
 /*----------------- campus -------------------*/
@@ -399,7 +400,7 @@ h3{
   transition: 0.5s;
 }
 .layer:hover{
-  background-image: linear-gradient(to right,#06c1de,#053e47);
+  background-image: linear-gradient(to right, #FA2742,#6c0412);
 }
 .layer h3{
   width: 100%;
@@ -421,7 +422,7 @@ h3{
 .layer .red-btn{
   width: 35%;
   font-weight: 400;
-  color: #053e47;
+  color: #FA2742;
   font-size: 16px;
   bottom: 0;
   left: 50%;
@@ -487,7 +488,7 @@ h3{
   padding: 25px;
   cursor: pointer;
   display: flex;
-  border: 2px solid #053e47;
+  border: 2px solid #940417;
 }
 .resume-col img{
   height: 45px;
@@ -503,7 +504,7 @@ h3{
   font-weight: 600;
 }
 .resume-col .fa{
-  color: #053e47;
+  color: #FA2742;
 }
 @media(max-width:700px){
   .testimonial-col img{
@@ -548,16 +549,16 @@ h3{
   font-weight: 600;
 }
 .icons .fa{
-  color:#06c1de;
+  color:#940417;
   margin: 0 13px;
   cursor: pointer;
   padding: 18px 0;
 }
 .fa-heart-o{
-  color:#06c1de;
+  color:#940417;
 }
 .text-dark{
-  color: #292f45;
+  color: #EBEAE3;
   font-size: 17px;
   font-family: "Century Gothic", sans-serif;
 }
@@ -565,7 +566,7 @@ h3{
 /*---------------------About Us page----------------*/
 .img-text-wrapper h2{
   font-family: 'Poppins', sans-serif;
-  color:#053e47;
+  color:#FA2742;
 }
 .img-text-wrapper h3{
   font-family: Ink Free;
@@ -593,7 +594,7 @@ h3{
 }
 .red-btn{
   border: 1px solid #FFF transparent;
-  color:#053e47;
+  color:#940417;
 }
 .red-btn:hover{
   color: #FFF;
@@ -606,7 +607,7 @@ h3{
 }
 .index-header
 {
-  color:#053e47;
+  color:#940417;
   font-weight: bold;
   margin-bottom: 10px;
   padding: 10px;
@@ -614,8 +615,8 @@ h3{
 .index-btn
 {
     margin: 10px 0 10px 0;
-    background-color: #57087e;
-    color: #06c1de;
+    background-color: #373833;
+    color: #FA2742;
     padding: 5px 0 5px 0;
 }
 .index-btn:hover
@@ -646,12 +647,12 @@ h3{
 }
 .title-link
 {
-  color:#053e47;
+  color:#FA2742;
 }
 .title-link:hover
 {
     text-decoration: none;
-    color: #06c1de;
+    color: #940417;
 }
 .col-md-8
 {
@@ -672,7 +673,7 @@ h3{
 .bold
 {
   font-weight: bold;
-  color: #053e47;
+  color: #FA2742;
 }
 .portfolio-img
 {
@@ -714,7 +715,7 @@ h3{
 }
 .about-header
 {
-    color: #053e47;
+    color: #FA2742;
     font-weight: bold;
 }
 
@@ -733,7 +734,7 @@ h3{
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #053e47;
+    background-color: #FA2742;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -755,8 +756,8 @@ h3{
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: white;
-  border: 4px solid #06c1de;
+  background-color: #FFF;
+  border: 4px solid #940417;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -781,9 +782,9 @@ h3{
   width: 0;
   z-index: 5;
   right: 30px;
-  border: medium solid  #17A2B8;
+  border: medium solid  #FA2742;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #17A2B8;
+  border-color: transparent transparent transparent #FA2742;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -795,9 +796,9 @@ h3{
   width: 0;
   z-index: 5;
   left: 30px;
-  border: medium solid #17A2B8;
+  border: medium solid #FA2742;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #17A2B8 transparent transparent;
+  border-color: transparent #FA2742 transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -808,9 +809,9 @@ h3{
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: white;
+  background-color: #FFF;
   position: relative;
-  border: 2px solid #17A2B8;
+  border: 2px solid #FA2742;
   border-radius: 6px;
 }
 
@@ -832,9 +833,9 @@ h3{
 /* Make sure that all arrows are pointing leftwards */
 .container-timeline::before {
   left: 60px;
-  border: medium solid #17A2B8;
+  border: medium solid #FA2742;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #17A2B8 transparent transparent;
+  border-color: transparent #FA2742 transparent transparent;
 }
 
 /* Make sure all circles are at the same spot */
@@ -859,13 +860,13 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #373833;
     margin-top: 50px;
 }
 
 h2.about-header
 {
-    color: #053e47;
+    color: #940417;
 }
 
 .about-row
@@ -901,8 +902,8 @@ h2.about-header
     position: relative;
     height: 15px;
     width: 100%;
-    background-image: linear-gradient(to bottom right, #aad9e1,#053e47);
-    border: 2px solid #ccc;
+    background-image: linear-gradient(to bottom right, #FA2742, #6c0412);
+    border: 2px solid #373833;
     border-radius: 4px;
     margin-bottom: 15px;
 }
@@ -911,7 +912,7 @@ h2.about-header
 {
     position: absolute;
     height: 100%;
-    background-image: linear-gradient(to bottom right, #2797a8(51,198,184, 1), #158293(51,198,184, 0.5));
+    background-image: linear-gradient(to bottom right, #E04C60(51,198,184, 1), #790819(51,198,184, 0.5));
     /*background-color: #bea1cd;*/
     border-radius: 3px;
     z-index: 10;
@@ -956,7 +957,7 @@ h2{
   font-family: "Century Gothic", sans-serif;;
 }
 p{
-  color:#777;
+  color:#373833;
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
@@ -1020,7 +1021,7 @@ h3{
   padding: 10px 25px;
   border: none;
   border-radius: 20px;
-  background-image: linear-gradient(to right, #06c1de,#053e47);
+  background-image: linear-gradient(to right, #FA2742, #6c0412);
   
 }
 .projects-col .projects-right{
@@ -1031,9 +1032,9 @@ h3{
 }
 
 .blue-btn{
-  border: 1px solid #053e47;
+  border: 1px solid #FA2742;
   background: transparent;
-  color: #053e47;
+  color: #940417;
 }
 .blue-btn{
   color: #FFF;
@@ -1066,9 +1067,9 @@ h3{
   text-align: left;
 }
 .blue-btn{
-  border: 1px solid#053e47;
+  border: 1px solid #FA2742;
   background: transparent;
-  color:#053e47;
+  color:#940417;
 }
 .blue-btn:hover{
   color: #FFF;
@@ -1089,7 +1090,7 @@ h3{
   width: 100%;
 }
 .blog-left h2{
-  color:#222;
+  color: #373833;
   font-weight: 600;
   margin: 30px 0;
 }
@@ -1104,7 +1105,7 @@ h3{
   padding: 10px 25px;
   border: none;
   border-radius: 20px;
-  background-image: linear-gradient(to right,#06c1de,#053e47);
+  background-image: linear-gradient(to right, #FA2742, #6c0412);
   
 }
 .blog-left .projects-col .projects-right{
@@ -1116,7 +1117,7 @@ h3{
 
 .blog-right{
   flex-basis: 32%;
-  background: #f9f9f9;
+  background: #373833;
   box-sizing: border-box;
   display: block;
 	overflow: hidden;
@@ -1128,7 +1129,7 @@ h3{
 	border-top: 5px solid transparent;
 }
 .blog-right h3{
-  background:#053e47;
+  background: #FA2742;
   color: #FFF;
   padding: 7px 0;
   font-size: 16px;
@@ -1178,22 +1179,22 @@ h3{
   font-size: 17px;
 }
 .btn-outline-success:hover{
-  background: #053e47;
+  background: #FA2742;
 }
 .btn{
   display: inline-block;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   line-height: 17px;
-  color: #053e47;
+  color: #FA2742;
   text-align: center;
-  text-decoration: #06c1de;
+  text-decoration: #940417;
   white-space:#FFF;
   vertical-align: middle;
   cursor: pointer;
   user-select: none;
   background-color: #FFF;
-  border: 2px solid #17A2B8;
+  border: 2px solid #FA2742;
   @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-border-radius);
   @include transition($btn-transition);
 
@@ -1259,7 +1260,7 @@ h3{
 }
 .contact-col div .fa{
   font-size: 28px;
-  color: #053e47;
+  color: #FA2742;
   margin: 10px;
   margin-right: 30px;
 }
@@ -1367,7 +1368,7 @@ h3{
 }
 
 .i-circled:hover,.i-rounded:hover {
-  background-color: #053e47;
+  background-color: #FA2742;
   color: #FFF;
   text-shadow: 1px 1px 1px rgba(0,0,0,.3);
   box-shadow: 0 0 0 rgba(0,0,0,.2);
@@ -1480,7 +1481,7 @@ h3{
 
 .feature-box .fbox-icon i,.feature-box .fbox-icon img {
   border-radius: 50%;
-  background-color: #bea1cd;
+  background-color: #FA2742;
 }
 
 .feature-box .fbox-icon i {
@@ -1522,7 +1523,7 @@ h3{
 }
 
 .feature-box.fbox-outline .fbox-icon {
-  border: 1px solid #06c1de;
+  border: 1px solid #940417;
   border-radius: 50%;
   padding: 3px;
 }
@@ -1582,7 +1583,7 @@ h3{
 }
 
 .feature-box.fbox-border .fbox-icon {
-  border: 1px solid #06c1de;
+  border: 1px solid #FA2742;
   border-radius: 50%;
   padding: 0;
 }
@@ -1590,7 +1591,7 @@ h3{
 .feature-box.fbox-border .fbox-icon i,.feature-box.fbox-border .fbox-icon img {
   border: none;
   background-color: transparent!important;
-  color: #06c1de;
+  color: #FA2742;
 }
 
 .feature-box.fbox-border .fbox-icon i {
@@ -1625,7 +1626,7 @@ h3{
 .feature-box.fbox-plain .fbox-icon i,.feature-box.fbox-plain .fbox-icon img {
   border: none!important;
   background-color: transparent!important;
-  color:#36a7b9;
+  color:#C51A31;
   border-radius: 0;
 }
 
@@ -1835,7 +1836,7 @@ h3{
   margin-top: 68px;
   padding: 68px 30px 30px;
   background-color: #FFF;
-  border: 0.5px solid #06c1de;
+  border: 0.5px solid #940417;
   border-radius: 5px;
 }
 
@@ -1958,7 +1959,7 @@ h3{
   font-size: 14px;
   height: 40px;
   line-height: 40px;
-  background-color: #278f9f;
+  background-color: #940417;
   color: #FFF;
   font-weight: 600;
   text-transform: uppercase;
