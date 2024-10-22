@@ -225,12 +225,12 @@
   margin: auto;
   text-align: center;
   padding-top: 50px;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 h1{
   font-size: 30px;
   font-weight: 600; 
-  font-family: "Karla", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 .title::after{
   content:'';
@@ -248,7 +248,7 @@ p{
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 .row{
   margin-top: 5%;
@@ -264,7 +264,7 @@ p{
   box-sizing: border-box;
   transition: 0.5s;
   border: 1px solid #373833;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 .portfolio-col img{
   width: 50%;
@@ -275,7 +275,7 @@ p{
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 .info li{
   text-align: left;
@@ -376,7 +376,7 @@ h3{
   margin: auto;
   text-align: center;
   padding-top: 10px;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: 600;
 }
 .campus-col{
@@ -444,7 +444,7 @@ h3{
   margin: auto;
   text-align: center;
   padding-top: 20px;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 .facilities-col{
   flex-basis: 31%;
@@ -476,7 +476,7 @@ h3{
   margin: auto;
   padding-top: 70px;
   text-align: center;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: 600;
 }
 .resume-col{
@@ -523,7 +523,7 @@ h3{
   border-radius: 10px;
   text-align: center;
   padding: 100px 0;
-  font-family:"Segoe UI", sans-serif;
+  font-family:"Helvetica", sans-serif;
 }
 .cta h1{
   color: #FFF;
@@ -560,12 +560,12 @@ h3{
 .text-dark{
   color: #EBEAE3;
   font-size: 17px;
-  font-family:"Segoe UI", sans-serif;
+  font-family:"Helvetica", sans-serif;
 }
 
 /*---------------------About Us page----------------*/
 .img-text-wrapper h2{
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Helvetica", sans-serif;
   color:#FA2742;
 }
 .img-text-wrapper h3{
@@ -603,7 +603,7 @@ h3{
 /*------------------Learning & Carreer path---------------------*/
 .home-content{
   margin: 20px 0 40px 0;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 .index-header
 {
@@ -949,12 +949,12 @@ h2.about-header
   margin: auto;
   text-align: center;
   padding-top: 100px;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 h2{
   font-size: 30px;
   font-weight: 500;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 p{
   color:#373833;
@@ -962,7 +962,7 @@ p{
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
-  font-family:"Segoe UI", sans-serif;
+  font-family:"Helvetica", sans-serif;
 }
 .row{
   margin-top: 1%;
@@ -982,7 +982,7 @@ h3{
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
-  font-family:"Segoe UI", sans-serif;
+  font-family:"Helvetica", sans-serif;
 }
 .writing-col:hover{
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
@@ -1081,7 +1081,7 @@ h3{
   width: 80%;
   margin: auto;
   padding: 60px 0;
-  font-family:"Segoe UI", sans-serif;
+  font-family:"Helvetica", sans-serif;
 }
 .blog-left{
   flex-basis: 65%;
@@ -1175,7 +1175,7 @@ h3{
 }
 .article-name{
   text-align: left;
-  font-family:"Segoe UI", sans-serif;
+  font-family:"Helvetica", sans-serif;
   font-size: 17px;
 }
 .btn-outline-success:hover{
@@ -1183,7 +1183,7 @@ h3{
 }
 .btn{
   display: inline-block;
-  font-family:"Segoe UI", sans-serif;
+  font-family:"Helvetica", sans-serif;
   font-weight: 500;
   line-height: 17px;
   color: #FA2742;
@@ -1204,7 +1204,7 @@ h3{
 }
 #blogging{
   padding-top: 10px 0;
-  font-family:"Segoe UI", sans-serif;
+  font-family:"Helvetica", sans-serif;
   font-weight: 600;
 }
 .col-md-5{
@@ -1453,7 +1453,7 @@ h3{
   padding: 0 0 0 80px;
 
   flex-basis: 31%;
-  font-family:"Segoe UI", sans-serif;
+  font-family:"Helvetica", sans-serif;
   box-sizing: border-box;
   transition: 0.5s;
 }
