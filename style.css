@@ -225,12 +225,12 @@
   margin: auto;
   text-align: center;
   padding-top: 50px;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Century Gothic", sans-serif;
 }
 h1{
   font-size: 30px;
   font-weight: 600; 
-  font-family: "Helvetica", sans-serif;
+  font-family: "Century Gothic";
 }
 .title::after{
   content:'';
@@ -248,7 +248,7 @@ p{
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
-  font-family: "Helvetica", sans-serif;
+  font-family:"Century Gothic", sans-serif;
 }
 .row{
   margin-top: 5%;
@@ -264,7 +264,7 @@ p{
   box-sizing: border-box;
   transition: 0.5s;
   border: 1px solid #373833;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Century Gothic";
 }
 .portfolio-col img{
   width: 50%;
@@ -275,7 +275,7 @@ p{
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Century Gothic";
 }
 .info li{
   text-align: left;
@@ -376,7 +376,7 @@ h3{
   margin: auto;
   text-align: center;
   padding-top: 10px;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Century Gothic";
   font-weight: 600;
 }
 .campus-col{
@@ -444,7 +444,7 @@ h3{
   margin: auto;
   text-align: center;
   padding-top: 20px;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Century Gothic";
 }
 .facilities-col{
   flex-basis: 31%;
@@ -476,7 +476,7 @@ h3{
   margin: auto;
   padding-top: 70px;
   text-align: center;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Century Gothic";
   font-weight: 600;
 }
 .resume-col{
@@ -523,7 +523,7 @@ h3{
   border-radius: 10px;
   text-align: center;
   padding: 100px 0;
-  font-family:"Helvetica", sans-serif;
+  font-family: "Century Gothic";
 }
 .cta h1{
   color: #FFF;
@@ -560,12 +560,12 @@ h3{
 .text-dark{
   color: #EBEAE3;
   font-size: 17px;
-  font-family:"Helvetica", sans-serif;
+  font-family:"Century Gothic";
 }
 
 /*---------------------About Us page----------------*/
 .img-text-wrapper h2{
-  font-family: "Helvetica", sans-serif;
+  font-family: "Century Gothic";
   color:#FA2742;
 }
 .img-text-wrapper h3{
@@ -603,7 +603,7 @@ h3{
 /*------------------Learning & Carreer path---------------------*/
 .home-content{
   margin: 20px 0 40px 0;
-  font-family: "Helvetica", sans-serif;
+  font-family:"Century Gothic";
 }
 .index-header
 {
@@ -710,7 +710,7 @@ h3{
     }
     .portfolio-row
     {
-        margin: 30px 60px 30px 60px;
+        margin:30px 60px 30px 60px;
     }
 }
 .about-header
@@ -902,7 +902,7 @@ h2.about-header
     position: relative;
     height: 15px;
     width: 100%;
-    background-image: linear-gradient(to bottom right,#FA2742,#6c0412);
+    background-image: linear-gradient(to bottom right, #FA2742, #6c0412);
     border: 2px solid #373833;
     border-radius: 4px;
     margin-bottom: 15px;
@@ -924,7 +924,7 @@ h2.about-header
 .skill-bar .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-image: linear-gradient(to bottom right,#F8F8F8,#FFFFFF);
+  background-image: linear-gradient(to bottom right, #F8F8F8, #FFFFFF);
   color: #000000;
   text-align: center;
   padding: 5px;
@@ -949,12 +949,12 @@ h2.about-header
   margin: auto;
   text-align: center;
   padding-top: 100px;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Century Gothic";
 }
 h2{
   font-size: 30px;
   font-weight: 500;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Century Gothic";
 }
 p{
   color:#373833;
@@ -962,7 +962,7 @@ p{
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
-  font-family:"Helvetica", sans-serif;
+  font-family:"Century Gothic";
 }
 .row{
   margin-top: 1%;
@@ -982,7 +982,7 @@ h3{
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
-  font-family:"Helvetica", sans-serif;
+  font-family:"Century Gothic";
 }
 .writing-col:hover{
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
@@ -1081,7 +1081,7 @@ h3{
   width: 80%;
   margin: auto;
   padding: 60px 0;
-  font-family:"Helvetica", sans-serif;
+  font-family:"Century Gothic";
 }
 .blog-left{
   flex-basis: 65%;
@@ -1138,7 +1138,7 @@ h3{
 .blog-right div{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-between;
   color: #555;
   padding: 8px;
   box-sizing: border-box;
@@ -1175,7 +1175,7 @@ h3{
 }
 .article-name{
   text-align: left;
-  font-family:"Helvetica", sans-serif;
+  font-family:"Century Gothic";
   font-size: 17px;
 }
 .btn-outline-success:hover{
@@ -1183,7 +1183,7 @@ h3{
 }
 .btn{
   display: inline-block;
-  font-family:"Helvetica", sans-serif;
+  font-family:"Century Gothic";
   font-weight: 500;
   line-height: 17px;
   color: #FA2742;
@@ -1204,7 +1204,7 @@ h3{
 }
 #blogging{
   padding-top: 10px 0;
-  font-family:"Helvetica", sans-serif;
+  font-family:"Century Gothic";
   font-weight: 600;
 }
 .col-md-5{
@@ -1324,7 +1324,7 @@ h3{
   width: 52px!important;
   height: 52px!important;
   line-height: 52px!important;
-  background-color: #444;
+  background-color:#444;
   border-radius: 3px;
 }
 
@@ -1453,7 +1453,7 @@ h3{
   padding: 0 0 0 80px;
 
   flex-basis: 31%;
-  font-family:"Helvetica", sans-serif;
+  font-family:"Century Gothic";
   box-sizing: border-box;
   transition: 0.5s;
 }
