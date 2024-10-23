@@ -280,7 +280,7 @@ p{
 .info li{
   text-align: left;
   color:#373833;
-  font-size: 15.25px;
+  font-size: 13px;
   font-weight: 300;
   line-height: 22px;
   font-family: 'Ink Free', sans-serif;
@@ -534,7 +534,7 @@ h3{
 }
 @media(max-width:700px){
   .cta h1{
-    font-size: 24px;
+    font-size: 23px;
   }
 }
 
@@ -561,7 +561,7 @@ h3{
 }
 .text-dark{
   color: #EBEAE3;
-  font-size: 17px;
+  font-size: 16px;
   font-family:"Century Gothic";
 }
 
@@ -703,15 +703,15 @@ h3{
     }
     .title-description
     {
-        font-size: 19.25px;
+        font-size: 17px;
     }
     .project-des
     {
-        font-size: 17.25px;
+        font-size: 17px;
     }
     .skills
     {
-        font-size:15.25px;
+        font-size:14.25px;
     }
     .portfolio-row
     {
@@ -954,17 +954,17 @@ h2.about-header
   margin: auto;
   text-align: center;
   padding-top: 100px;
-  font-size:15.25px;
+  font-size:14.25px;
   font-family: "Century Gothic";
 }
 h2{
-  font-size: 30px;
+  font-size: 29px;
   font-weight: 500;
   font-family: "Century Gothic";
 }
 p{
   color:#373833;
-  font-size:15.25px;
+  font-size:14.25px;
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
@@ -981,7 +981,7 @@ p{
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 10px;
-  font-size:15.25px;
+  font-size:14.25px;
   box-sizing: border-box;
   transition: 0.5s;
 }
@@ -999,7 +999,7 @@ h3{
 .projects{
   width: 80%;
   margin: auto;
-  font-size:14px;
+  font-size:14.25px;
   text-align: center;
   padding-top: 20px;
 }
@@ -1008,7 +1008,7 @@ h3{
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: left;
-  font-size:15.25px;
+  font-size:13px;
   box-sizing: border-box;
 }
 .projects-col img{
@@ -1055,7 +1055,7 @@ h3{
   width: 80%;
   margin: auto;
   text-align: center;
-  font-size:15.25px;
+  font-size:14.25px;
   padding-top: 10px;
 }
 .technical-col{
@@ -1063,7 +1063,7 @@ h3{
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: left;
-  font-size:15.25px;
+  font-size:14.25px;
 }
 .technical-col img{
   width: 100%;
@@ -1071,7 +1071,7 @@ h3{
 }
 .technical-col p{
   padding: 0;
-  font-size:15.25px;
+  font-size:14.25px;
 }
 .technical-col h3{
   margin-top: 16px;
@@ -1110,7 +1110,7 @@ h3{
 .blog-left p{
   color: #999;
   padding: 0%;
-  font-size:14.25px;
+  font-size:14px;
   vertical-align: baseline;
 }
 .blog-left .projects-left .btn-primary{
@@ -1146,7 +1146,7 @@ h3{
   background: #FA2742;
   color: #FFF;
   padding: 7px 0;
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 20px;
 }
 .blog-right div{
@@ -1184,13 +1184,13 @@ h3{
 
 @media(max-width:700px){
   .sub-header h1{
-    font-size: 24px;
+    font-size: 23px;
   }
 }
 .article-name{
   text-align: left;
   font-family:"Century Gothic";
-  font-size: 17px;
+  font-size: 16px;
 }
 .btn-outline-success:hover{
   background: #FA2742;
@@ -1233,7 +1233,7 @@ h3{
 }
 .col-md-5 .info{
   padding: 5px;
-  font-size:15.25px;
+  font-size:14.25px;
   background-color:;
 }
 .plot-blog .blogging-img {
@@ -1290,7 +1290,7 @@ h3{
 }
 .contact-col input, .contact-col textarea{
   width:100%;
-  padding: 15px;
+  padding: 14px;
   margin-bottom: 17px;
   outline: none;
   border: 1px solid #ccc;
@@ -1331,7 +1331,7 @@ h3{
 
 .process-steps li h5 {
   margin: 15px 0 0;
-  font-size: 17.25px;
+  font-size: 16.25px;
   font-weight: 300;
 }
 
@@ -1358,7 +1358,7 @@ h3{
 .i-plain {
   width: 36px!important;
   height: 36px!important;
-  font-size: 29px;
+  font-size: 28px;
   line-height: 36px!important;
   color: #444;
 }
@@ -1397,7 +1397,7 @@ h3{
 
 .i-small.i-bordered,.i-small.i-circled,.i-small.i-plain,.i-small.i-rounded {
   margin: 4px 11px 7px 0;
-  font-size:15.25px;
+  font-size:14.25px;
 }
 
 .i-small.i-bordered,.i-small.i-circled,.i-small.i-rounded {
@@ -1413,7 +1413,7 @@ h3{
 .i-small.i-plain {
   width: 18px!important;
   height: 18px!important;
-  font-size:15.25px;
+  font-size:14.25px;
   line-height: 18px!important;
 }
 
@@ -1435,13 +1435,13 @@ h3{
 .i-medium.i-plain {
   width: 28px!important;
   height: 28px!important;
-  font-size: 21.25px;
+  font-size: 20.25px;
   line-height: 28px!important;
 }
 
 .i-large.i-bordered,.i-large.i-circled,.i-large.i-plain,.i-large.i-rounded {
   margin: 4px 11px 7px 0;
-  font-size: 43.25px;
+  font-size: 43px;
 }
 
 .i-large.i-bordered,.i-large.i-circled,.i-large.i-rounded {
@@ -1457,7 +1457,7 @@ h3{
 .i-large.i-plain {
   width: 48px!important;
   height: 48px!important;
-  font-size: 43.25px;
+  font-size: 43px;
   line-height: 48px!important;
 }
 
@@ -1501,7 +1501,7 @@ h3{
 
 .feature-box .fbox-icon i {
   font-style: normal;
-  font-size: 29.25px;
+  font-size: 28.25px;
   text-align: center;
   line-height: 64px;
 }
@@ -1533,7 +1533,7 @@ h3{
 }
 
 .feature-box.fbox-large .fbox-icon i {
-  font-size: 43.25px;
+  font-size: 43px;
   line-height: 96px;
 }
 
