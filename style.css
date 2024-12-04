@@ -265,6 +265,7 @@ p{
   transition: 0.5s;
   border: 1px solid #FFF;
   font-family: "Century Gothic";
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
 .portfolio-col img{
   width: 50%;
@@ -291,7 +292,7 @@ h3{
   margin: 10px 0;
 }
 .portfolio-col:hover{
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
 }
 .portfolio-left{
   text-align: left;
@@ -331,7 +332,7 @@ h3{
 }
 .col-md-4 .info{
   padding: 5px;
-  background-color: #EBEAE3;
+  background-color: #FAFAF8;
   color: #373833;
 }
 .plot .activity-img {
