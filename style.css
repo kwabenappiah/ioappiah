@@ -484,14 +484,14 @@ h3{
 }
 .resume-col{
   flex-basis: 44%;
-  border-radius: 5px;
+  border-radius: 20px;
   margin-bottom: 5%;
   text-align: left;
   background-color: #FFF;
   padding: 25px;
   cursor: pointer;
   display: flex;
-  border: 1px solid #233743;
+  border: 1px solid #B40A21;
 }
 .resume-col img{
   height: 45px;
