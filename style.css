@@ -353,7 +353,7 @@ h3{
   content:'';
   background:#BDBAA8;
   height: 3px;
-  width: 155px;
+  width: 148px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -483,14 +483,14 @@ h3{
 }
 .resume-col{
   flex-basis: 44%;
-  border-radius: 20px;
+  border-radius: 5px;
   margin-bottom: 5%;
   text-align: left;
   background-color: #FFF;
   padding: 25px;
   cursor: pointer;
   display: flex;
-  border: 2px solid #EBEAE3;
+  border: 1px solid #233743;
 }
 .resume-col img{
   height: 45px;
