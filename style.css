@@ -216,7 +216,7 @@
   padding: 8px 25px;
   border: none;
   border-radius: 20px;
-  background-image: linear-gradient(to right,#EBEAE3,#BDBAA8);
+  background-image: linear-gradient(to right, #233743, #233743);
 }
 
 /*-------------- Portfolio ----------------*/
@@ -327,7 +327,7 @@ h3{
   padding: 20px;
   box-sizing: border-box;
   transition: 0.5s;
-  border: 1px solid #373833;
+  border: 1px solid #FA2742;
 }
 .col-md-4 .info{
   padding: 5px;
@@ -351,9 +351,9 @@ h3{
 }
 .title::after{
   content:'';
-  background: #BDBAA8;
+  background:#BDBAA8;
   height: 3px;
-  width: 100px;
+  width: 155px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -490,7 +490,7 @@ h3{
   padding: 25px;
   cursor: pointer;
   display: flex;
-  border: 2px solid #940417;
+  border: 2px solid #FA2742;
 }
 .resume-col img{
   height: 45px;
