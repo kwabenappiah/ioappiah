@@ -216,7 +216,7 @@
   padding: 8px 25px;
   border: none;
   border-radius: 20px;
-  background-image: linear-gradient(to right,#FA2742,#6c0412);
+  background-image: linear-gradient(to right,#EBEAE3, #BDBAA8);
 }
 
 /*-------------- Portfolio ----------------*/
@@ -243,7 +243,7 @@ h1{
   transform: translateY(60px);
 }
 p{
-  color:#373833;
+  color: #FFF;
   font-size: 15.25px;
   font-weight: 300;
   line-height: 22px;
@@ -263,7 +263,7 @@ p{
   padding: 20px;
   box-sizing: border-box;
   transition: 0.5s;
-  border: 1px solid #373833;
+  border: 1px solid #FFF;
   font-family: "Century Gothic";
 }
 .portfolio-col img{
